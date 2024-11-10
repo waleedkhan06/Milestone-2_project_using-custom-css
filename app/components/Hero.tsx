@@ -5,7 +5,7 @@ import Image from 'next/image';
 import styles from '../styles/Hero.module.css';
 
 function Hero() {
-  const handleSmoothScroll = (e:any, target:any) => {
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, target: string) => {
     e.preventDefault();
     const section = document.querySelector(target);
     if (section) {

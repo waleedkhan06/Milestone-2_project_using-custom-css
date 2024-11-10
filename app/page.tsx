@@ -2,7 +2,6 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import SkillsSection from "./components/Skills";
-import ProjectSection from "./components/Projects";
 import ServicesSection from "./components/Service";
 import ContactSection from "./components/Contact";
 import Footer from "./components/Footer";
