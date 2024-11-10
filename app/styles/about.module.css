@@ -1,0 +1,44 @@
+
+.aboutSection {
+  padding: 4rem 0;
+  background-color: #2d3748; 
+  text-align: center;
+  color: #ffffff; 
+}
+
+
+.aboutContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .aboutContainer {
+    padding: 0 3rem;
+  }
+}
+
+
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #22d3ee; 
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  color: #ffffff; 
+  margin-bottom: 1.5rem;
+  line-height: 1.75; 
+}
+
+
+.highlightedText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #22d3ee; 
+}

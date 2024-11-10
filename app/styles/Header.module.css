@@ -1,0 +1,99 @@
+/* Header container styling */
+.header {
+  background-color: #1a202c; /* Dark background */
+  color: #22d3ee; /* Cyan text color */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* Logo container for better alignment */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logoContainer img {
+  width: 60px; /* Adjust logo size */
+  height: 35px; /* Adjust logo size */
+}
+
+.logoText {
+  font-size: 1.5rem; /* Larger font size for heading */
+  font-weight: 700;
+  color: #22d3ee;
+  margin-left: 0.75rem; /* Space between logo and text */
+}
+
+/* Navigation links for larger screens */
+.navLinks {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navLinks a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #22d3ee;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: white;
+}
+
+/* Mobile menu button */
+.menuButton {
+  display: none;
+  color: #22d3ee;
+  font-size: 1.5rem;
+}
+
+.mobileMenu {
+  background-color: #000000;
+  text-align: center;
+  padding: 1rem;
+  display: none;
+}
+
+.mobileMenu a {
+  display: block;
+  margin-bottom: 1rem;
+  color: #22d3ee;
+  text-decoration: none;
+}
+
+.mobileMenu a:hover {
+  color: white;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .navLinks {
+    display: none; /* Hide navigation links on mobile */
+  }
+
+  .menuButton {
+    display: block; /* Display menu button on mobile */
+  }
+
+  .mobileMenu {
+    display: block; /* Display mobile menu */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .mobileMenu a {
+    font-size: 1.2rem; /* Increase font size for better readability on mobile */
+    margin: 1rem 0; /* Add vertical space between links */
+  }
+}

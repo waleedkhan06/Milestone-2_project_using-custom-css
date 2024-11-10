@@ -1,0 +1,91 @@
+.skillsSection {
+    padding: 4rem 0;
+    background-color: #1f2937; 
+    text-align: center;
+  }
+  
+  .skillsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  
+  .skillsTitle {
+    font-size: 2.5rem;
+    color: #06b6d4; 
+    margin-bottom: 1rem;
+  }
+  
+  .skillsDescription {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .skillCard {
+    background-color: #374151; 
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skillCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .skillName {
+    font-size: 1.5rem;
+    color: #06b6d4; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .skillLevel {
+    font-size: 0.875rem;
+    color: #9ca3af; 
+  }
+  
+  
+  .progressBar {
+    background-color: #4b5563; 
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 0.75rem;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  
+  
+  .progressExpert {
+    width: 100%;
+    background-color: #10b981; 
+  }
+  
+  .progressAdvanced {
+    width: 75%;
+    background-color: #f59e0b; 
+  }
+  
+  .progressIntermediate {
+    width: 60%;
+    background-color: #f97316; 
+  }
+  
+  .progressBeginner {
+    width: 50%;
+    background-color: #ef4444; 
+  }
+  
